@@ -1,6 +1,13 @@
-import { Flex, Heading, Button, VStack } from '@chakra-ui/react';
+import {
+  Flex,
+  Heading,
+  Button,
+  VStack,
+  Spacer,
+  IconButton,
+} from '@chakra-ui/react';
 import { useColorMode } from '@chakra-ui/react';
-// import { MdDarkMode, MdLightMode } from 'react-icons/md';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function Header() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -8,10 +15,13 @@ function Header() {
     <VStack>
       <Flex w='100%'>
         <Heading> Luan Pham</Heading>
+        <Spacer />
+        <Button onClick={toggleColorMode} position=''>
+          Toggle {colorMode === 'light' ? 'Dark' : 'Light'}
+        </Button>
+        <IconButton icon={<FaGithub />}></IconButton>
+        <IconButton icon={<FaLinkedin />}></IconButton>
       </Flex>
-      <Button onClick={toggleColorMode}>
-        Toggle {colorMode === 'light' ? 'Dark' : 'Light'}
-      </Button>
     </VStack>
   );
 }
