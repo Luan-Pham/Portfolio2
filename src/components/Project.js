@@ -1,11 +1,11 @@
 import { Center, Grid, GridItem, Link } from '@chakra-ui/react';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
-import Arcade from '../assets/Arcade.jpg';
-import Bike from '../assets/Bike.jpg';
-import Cap from '../assets/Cap-vs-Ironman.jpg';
-import Notes from '../assets/Notes.jpg';
-import Edit from '../assets/Text-Editor.jpg';
-import Security from '../assets/Password.jpg';
+import Arcade from './assets/Arcade.jpg';
+import Bike from './assets/Bike.jpg';
+import Cap from './assets/Cap-vs-Ironman.jpg';
+import Notes from './assets/Notes.jpg';
+import Edit from './assets/Text-Editor.jpg';
+import Security from './assets/Password.jpg';
 
 function Project() {
   return (
