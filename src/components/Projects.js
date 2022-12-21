@@ -7,7 +7,9 @@ import {
   Box,
   Text,
   StackDivider,
+  Link,
 } from '@chakra-ui/react';
+import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 function Projects() {
   return (
@@ -20,7 +22,12 @@ function Projects() {
         <Stack divider={<StackDivider />} spacing='4'>
           <Box>
             <Heading size='xs' textTransform='uppercase'>
-              Summary
+              <Link
+                href='https://secure-everglades-09731.herokuapp.com/'
+                isExternal
+              >
+                Barcade <ExternalLinkIcon mx='2px' />
+              </Link>
             </Heading>
             <Text pt='2' fontSize='sm'>
               View a summary of all your clients over the last month.
@@ -28,7 +35,12 @@ function Projects() {
           </Box>
           <Box>
             <Heading size='xs' textTransform='uppercase'>
-              Overview
+              <Link
+                href='https://luan-pham.github.io/Password-Generator/'
+                isExternal
+              >
+                Password Generator! <ExternalLinkIcon mx='2px' />
+              </Link>
             </Heading>
             <Text pt='2' fontSize='sm'>
               Check out the overview of your clients.
@@ -36,7 +48,12 @@ function Projects() {
           </Box>
           <Box>
             <Heading size='xs' textTransform='uppercase'>
-              Analysis
+              <Link
+                href='https://luan-pham.github.io/Marvel-Project/'
+                isExternal
+              >
+                Marvel Search! <ExternalLinkIcon mx='2px' />
+              </Link>
             </Heading>
             <Text pt='2' fontSize='sm'>
               See a detailed analysis of all your business clients.
