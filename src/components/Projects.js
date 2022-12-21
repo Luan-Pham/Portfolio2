@@ -30,7 +30,9 @@ function Projects() {
               </Link>
             </Heading>
             <Text pt='2' fontSize='sm'>
-              View a summary of all your clients over the last month.
+              Group Project collborating with other students in bootcamp. A
+              virtual bar and arcade platform used to socialize with friends,
+              play games, and set high scores!
             </Text>
           </Box>
           <Box>
@@ -43,7 +45,8 @@ function Projects() {
               </Link>
             </Heading>
             <Text pt='2' fontSize='sm'>
-              Check out the overview of your clients.
+              My first application! Generate a random and secure password to
+              make your accounts more secured online.
             </Text>
           </Box>
           <Box>
@@ -56,7 +59,9 @@ function Projects() {
               </Link>
             </Heading>
             <Text pt='2' fontSize='sm'>
-              See a detailed analysis of all your business clients.
+              Collaborative project to use the marvel API in order to search for
+              information about its expansive universe. Users can search for
+              data about a character's backstory, comic books, and movies.
             </Text>
           </Box>
         </Stack>
