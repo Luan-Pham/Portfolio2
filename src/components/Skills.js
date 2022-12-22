@@ -6,36 +6,36 @@ function Skills() {
   return (
     <List spacing={3}>
       <ListItem>
-        <ListIcon as={MdCheckCircle} color='green.500' />
+        <ListIcon as={FaNodeJs} color='green.500' />
         Node.js
       </ListItem>
       <ListItem>
-        <ListIcon as={MdCheckCircle} color='green.500' />
+        <ListIcon as={FaReact} color='green.500' />
         React
       </ListItem>
       <ListItem>
-        <ListIcon as={MdCheckCircle} color='green.500' />
+        <ListIcon as={FaHtml5} color='green.500' />
         HTML
       </ListItem>
       {/* You can also use custom icons from react-icons */}
       <ListItem>
-        <ListIcon as={MdSettings} color='green.500' />
+        <ListIcon as={FaCss3} color='green.500' />
         CSS
       </ListItem>
       <ListItem>
-        <ListIcon as={MdSettings} color='green.500' />
+        <ListIcon as={SiJquery} color='green.500' />
         jQuery
       </ListItem>
       <ListItem>
-        <ListIcon as={MdSettings} color='green.500' />
+        <ListIcon as={SiMongodb} color='green.500' />
         MongoDb
       </ListItem>
       <ListItem>
-        <ListIcon as={MdSettings} color='green.500' />
+        <ListIcon as={SiMysql} color='green.500' />
         MySQL
       </ListItem>
       <ListItem>
-        <ListIcon as={MdSettings} color='green.500' />
+        <ListIcon as={SiChakraui} color='green.500' />
         Chakra UI
       </ListItem>
     </List>
