@@ -41,7 +41,7 @@ function Projects() {
                 href='https://luan-pham.github.io/Password-Generator/'
                 isExternal
               >
-                Password Generator! <ExternalLinkIcon mx='2px' />
+                Password Generator <ExternalLinkIcon mx='2px' />
               </Link>
             </Heading>
             <Text pt='2' fontSize='sm'>
@@ -55,7 +55,7 @@ function Projects() {
                 href='https://luan-pham.github.io/Marvel-Project/'
                 isExternal
               >
-                Marvel Search! <ExternalLinkIcon mx='2px' />
+                Marvel Search <ExternalLinkIcon mx='2px' />
               </Link>
             </Heading>
             <Text pt='2' fontSize='sm'>
