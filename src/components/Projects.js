@@ -14,7 +14,7 @@ function Projects() {
   return (
     <Card w="100%">
       <CardHeader>
-        <Heading size="md">Client Report</Heading>
+        <Heading size="md">Projects</Heading>
       </CardHeader>
 
       <CardBody>
@@ -37,38 +37,29 @@ function Projects() {
           <Box>
             <Heading size="xs" textTransform="uppercase">
               <Link
-                href="https://luan-pham.github.io/Password-Generator/"
-                isExternal
-              >
-<<<<<<< HEAD
-                Password Generator <ExternalLinkIcon mx='2px' />
-=======
-                Password Generator!
->>>>>>> b0b3239b28428435de6396bc51131ed845d655db
-              </Link>
-            </Heading>
-            <Text pt="2" fontSize="sm">
-              My first application! Generate a random and secure password to
-              make your accounts more secured online.
-            </Text>
-          </Box>
-          <Box>
-            <Heading size="xs" textTransform="uppercase">
-              <Link
                 href="https://luan-pham.github.io/Marvel-Project/"
                 isExternal
               >
-<<<<<<< HEAD
-                Marvel Search <ExternalLinkIcon mx='2px' />
-=======
-                Marvel Search!
->>>>>>> b0b3239b28428435de6396bc51131ed845d655db
+                Marvel Search 
               </Link>
             </Heading>
             <Text pt="2" fontSize="sm">
               Collaborative project to use the marvel API in order to search for
               information about its expansive universe. Users can search for
               data about a character's backstory, comic books, and movies.
+            </Text>
+          </Box>
+          <Box>
+            <Heading size="xs" textTransform="uppercase">
+              <Link
+                href="https://luan-pham.github.io/Password-Generator/"
+                isExternal
+              >
+               Thyme2Cook
+              </Link>
+            </Heading>
+            <Text pt="2" fontSize="sm">
+              Latest application that I am working on! An app to search up ideas to make for dinner or to figure what you can make with ingredients already available.
             </Text>
           </Box>
         </Stack>
