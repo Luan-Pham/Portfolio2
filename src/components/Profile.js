@@ -42,9 +42,9 @@ function Profile() {
         </CardBody>
 
         <CardFooter>
-          <Button variant="solid" colorScheme="blue">
-            Contact Me
-          </Button>
+          <a href="https://resume.io/r/x4wKMkaU8"><Button variant="solid" colorScheme="blue">
+            Hire Me
+          </Button></a>
         </CardFooter>
       </Stack>
     </Card>
