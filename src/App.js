@@ -8,7 +8,7 @@ import Profile from "./components/Profile";
 function App() {
   return (
     <ChakraProvider>
-      <VStack p={8}>
+      <VStack p={8} margin={3} spacing={10}>
         <Header />
         <Profile />
         <Projects />
