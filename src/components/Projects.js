@@ -8,7 +8,7 @@ import {
   Text,
   StackDivider,
   Link,
-} from "@chakra-ui/react";
+} from '@chakra-ui/react';
 
 function Projects() {
   return (
@@ -40,7 +40,7 @@ function Projects() {
                 href="https://luan-pham.github.io/Marvel-Project/"
                 isExternal
               >
-                Marvel Search 
+                Marvel Search
               </Link>
             </Heading>
             <Text pt="2" fontSize="sm">
@@ -55,11 +55,12 @@ function Projects() {
                 href="https://luan-pham.github.io/Password-Generator/"
                 isExternal
               >
-               Thyme2Cook
+                Thyme2Cook
               </Link>
             </Heading>
             <Text pt="2" fontSize="sm">
-              Latest application that I am working on! An app to search up ideas to make for dinner or to figure what you can make with ingredients already available.
+              Latest application that I am working on! Ap app to help you decide
+              to what to make for dinner using the spoonacular API.
             </Text>
           </Box>
         </Stack>
