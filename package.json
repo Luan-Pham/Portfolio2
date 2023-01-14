@@ -1,6 +1,7 @@
 {
   "name": "lmp",
   "version": "0.1.0",
+  "homepage": "https://luan-pham.github.io/Portfolio2/",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.14",
@@ -11,6 +12,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^7.10.2",
+    "gh-pages": "^4.0.0",
     "i": "^0.3.7",
     "npm": "^9.2.0",
     "react": "^18.2.0",
@@ -22,6 +24,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

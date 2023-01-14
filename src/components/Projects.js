@@ -12,7 +12,7 @@ import {
 
 function Projects() {
   return (
-    <Card w="100%">
+    <Card w="100%" borderRadius="2rem" variant="filled">
       <CardHeader>
         <Heading size="md">Projects</Heading>
       </CardHeader>
@@ -51,16 +51,25 @@ function Projects() {
           </Box>
           <Box>
             <Heading size="xs" textTransform="uppercase">
-              <Link
-                href="https://luan-pham.github.io/Password-Generator/"
-                isExternal
-              >
+              <Link href="https://luan-pham.github.io/Thyme2Cook/" isExternal>
                 Thyme2Cook
               </Link>
             </Heading>
             <Text pt="2" fontSize="sm">
               Latest application that I am working on! Ap app to help you decide
               to what to make for dinner using the spoonacular API.
+            </Text>
+          </Box>
+          <Box>
+            <Heading size="xs" textTransform="uppercase">
+              <Link href="https://github.com/Luan-Pham" isExternal>
+                My GitHub
+              </Link>
+            </Heading>
+            <Text pt="2" fontSize="sm">
+              I am continuously working on new applications and reiterating my
+              previous ones to improve on them with the goal of learning as much
+              as I can.
             </Text>
           </Box>
         </Stack>
