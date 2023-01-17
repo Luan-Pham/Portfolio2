@@ -1,7 +1,7 @@
 ## Table of Contents
 
 - [Content](#Content)
-- [Screenshots](#Screenshots)
+<!-- - [Screenshots](#Screenshots) -->
 - [Tools](#Tools)
 - [Contact](#Contact)
 
