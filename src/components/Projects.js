@@ -29,7 +29,7 @@ function Projects() {
               </Link>
             </Heading>
             <Text pt="2" fontSize="sm">
-              Group Project collborating with other students in bootcamp. A
+              Group Project collaborating with other students in bootcamp. A
               virtual bar and arcade platform used to socialize with friends,
               play games, and set high scores!
             </Text>
